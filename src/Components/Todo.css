@@ -1,0 +1,68 @@
+.container{
+    width: 70%;
+    margin-left: 15%;
+    background-image:url(https://cdn.wallpapersafari.com/71/86/apQqNj.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image img{
+    width:80%;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 1px 5px 8px 10px purple;
+}
+span{
+    color: orange;
+    font-weight: bold;
+}
+form{
+    text-align: center;
+    margin-left: 10%;
+}
+form input{
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.534);
+    color: black;
+    border-radius: 5px;
+    border: 2px orange solid;
+    margin-right: 10px;
+    margin-top: 15%;
+}
+button{
+    background-color: orange;
+    border-radius: 5px;
+    border: 2px black solid;
+    font-size: 20px;
+    padding: 15px;
+}
+.card{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.647);
+    width: 95%;
+    border: 2px rgb(224, 8, 224) solid;
+    text-align: center;
+}
+.body{
+    border: orange 1px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 5px;
+}
+#list-item{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
